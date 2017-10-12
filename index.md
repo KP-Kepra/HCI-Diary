@@ -2,8 +2,8 @@
 
 ## Part 1 - Designing Mockups
 ---
-<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part1-1.png" width="40%">
-<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part1-2.png" width="40%">
+<img src="./part1-1.png" width="40%">
+<img src="./part1-2.png" width="40%">
 
 The mockup design was made using the website draw.io. Initially I wanted to do a rough sketch up, using the default size of the mockup. Then I decided to do multiple screens for the mockup itself, showing every possible state screen of my website. I thought that providing multiple screens allow for side-by-side comparisons, and reviewing my website would be easier by looking directly at other screens of the web.
 
@@ -15,11 +15,11 @@ Content-wise, I want to keep the text short but providing important information.
 
 ## Part 2 - Building the Website
 ---
-<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-1.png" width="15%">
-<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-2.png" width="15%">
-<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-3.png" width="15%">
-<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-4.png" width="15%">
-<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-5.png" width="15%">
+<img src="./part2-1.png" width="15%">
+<img src="./part2-2.png" width="15%">
+<img src="./part2-3.png" width="15%">
+<img src="./part2-4.png" width="15%">
+<img src="./part2-5.png" width="15%">
 The website was initially built with Vue.JS, a modular/component-based JavaScript framework. I was also trying the framework for the first time, so it's more like building and learning on-the-go. The website is also bundled with HTML markups and CSS decorations.
 
 I was able to mimic and follow the mockup design during the early development stages. Most of the designs are 

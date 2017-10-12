@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Project 1 Diary - Personal Portfolio Site
 
-You can use the [editor on GitHub](https://github.com/KP-Kepra/comp4461diary/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Part 1 - Designing Mockups
+---
+<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part1-1.png" width="40%">
+<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part1-2.png" width="40%">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The mockup design was made using the website draw.io. Initially I wanted to do a rough sketch up, using the default size of the mockup. Then I decided to do multiple screens for the mockup itself, showing every possible state screen of my website. I thought that providing multiple screens allow for side-by-side comparisons, and reviewing my website would be easier by looking directly at other screens of the web.
 
-### Markdown
+For the design itself, I planned to make five tabs within a navigation bar. I liked the idea from several websites that have pinned navigation on top or on bottom of the page, allowing for easy screen switching by just tapping the buttons. As seen from the first to the second picture, I made the navigation tabs cover the whole bottom part of the screen. The result doesn't only look nicer, but also provides clear layout segmentations for the web.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For the content itself, I had this one idea of making the screens symmetrical. Assume that the five screens are numbered 1, 2, 3, 4, 5. Screen 1 is similar to 5, screen 2 is similar to 4, and screen 3 has its own design. This idea came to mind that I wanted to make a smooth transition for the users navigating from the least-content page (screen 1), to content-heavy page (screen 3), and back to least-content page (screen 5).
 
-```markdown
-Syntax highlighted code block
+Content-wise, I want to keep the text short but providing important information. That's why I used panels and on-screen pages rather than scrolling so that people can actually focus on what's displayed on the screen. Most of the content will be delivered in points, short sentences, and phrases.
 
-# Header 1
-## Header 2
-### Header 3
+## Part 2 - Building the Website
+---
+<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-1.png" width="15%">
+<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-2.png" width="15%">
+<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-3.png" width="15%">
+<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-4.png" width="15%">
+<img src="https://github.com/KP-Kepra/comp4461diary/blob/master/part2-5.png" width="15%">
+The website was initially built with Vue.JS, a modular/component-based JavaScript framework. I was also trying the framework for the first time, so it's more like building and learning on-the-go. The website is also bundled with HTML markups and CSS decorations.
 
-- Bulleted
-- List
+I was able to mimic and follow the mockup design during the early development stages. Most of the designs are 
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KP-Kepra/comp4461diary/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Part 3 - Mobile Compatibility & Revisions
+---

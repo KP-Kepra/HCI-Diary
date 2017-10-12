@@ -15,15 +15,22 @@ Content-wise, I want to keep the text short but providing important information.
 
 ## Part 2 - Building the Website
 ---
-<img src="./part2-1.png" width="15%">
-<img src="./part2-2.png" width="15%">
-<img src="./part2-3.png" width="15%">
-<img src="./part2-4.png" width="15%">
-<img src="./part2-5.png" width="15%">
+
 The website was initially built with Vue.JS, a modular/component-based JavaScript framework. I was also trying the framework for the first time, so it's more like building and learning on-the-go. The website is also bundled with HTML markups and CSS decorations.
 
-I was able to mimic and follow the mockup design during the early development stages. Most of the designs are 
+I was able to mimic and follow the mockup design during the early development stages. Most of the designs were the same. In the mockup, I wasn't able to find a component for tree-view navigation, so I ended up in having a different design for tree view. However, the implementation design is what I wanted for the website.
 
+The subscribe button also changed to the current mockup, as a button since it would be easier to click rather than type, especially in mobile phones.
+
+Other design decisions include the navigation panel on the left side in About page (screen 2) to easily navigate to sub-content of the page. Work page (screen 3) was implemented with a rather similar design with content-changing buttons, except they were placed in a progress bar. This was done purposely in a way users can experience a timeline-like view with each of my work/projects categorized in each year.
 
 ## Part 3 - Mobile Compatibility & Revisions
 ---
+
+The major problem I was facing was how incompatible the early implementation was when I opened it from a mobile phone. The blog page (screen 4) was so cluttered as in the tree navigation panel blocked the actual content of the page.
+
+Text-wrapping and content overflow were also a major concern when I switched to mobile view, as it made the design messy and unreadable.
+
+Hence, I went with Quasar Framework as the UI wrapper for the website, with Vue.JS still as the Frontend Framework. Many of the problems were solved using Quasar Framework. I implemented the navigation bars at the bottom in just a matter of minutes, and resolved the content overflow easily. I then decided to enable page-scrolling for mobile views, while keeping the content short as to avoid long scrolls for the users. I still kept the on-screen page design for PC and web browsers for easy viewing.
+
+The major change upon using Quasar, is that I had to change the tree view navigation in blog page (screen 4) as it kept blocking the content in mobile views. The tree view navigation was then changed to the buttons similar in About page (screen 2). The buttons were also reduced to three to enable compatibility on mobile views, and for easy/uncluttered content.

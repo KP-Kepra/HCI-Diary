@@ -15,6 +15,11 @@ Content-wise, I want to keep the text short but providing important information.
 
 ## Part 2 - Building the Website
 ---
+<img src="./part2-1.png" width="15%">
+<img src="./part2-2.png" width="15%">
+<img src="./part2-3.png" width="15%">
+<img src="./part2-4.png" width="15%">
+<img src="./part2-5.png" width="15%">
 
 The website was initially built with Vue.JS, a modular/component-based JavaScript framework. I was also trying the framework for the first time, so it's more like building and learning on-the-go. The website is also bundled with HTML markups and CSS decorations.
 

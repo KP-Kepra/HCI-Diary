@@ -15,11 +15,11 @@ Content-wise, I want to keep the text short but providing important information.
 
 ## Part 2 - Building the Website
 ---
-<img src="./part2-1.png" width="15%">
-<img src="./part2-2.png" width="15%">
-<img src="./part2-3.png" width="15%">
-<img src="./part2-4.png" width="15%">
-<img src="./part2-5.png" width="15%">
+<img src="./part2-1.png" width="30%">
+<img src="./part2-2.png" width="30%">
+<img src="./part2-3.png" width="30%">
+<img src="./part2-4.png" width="30%">
+<img src="./part2-5.png" width="30%">
 
 The website was initially built with Vue.JS, a modular/component-based JavaScript framework. I was also trying the framework for the first time, so it's more like building and learning on-the-go. The website is also bundled with HTML markups and CSS decorations.
 
@@ -31,11 +31,26 @@ Other design decisions include the navigation panel on the left side in About pa
 
 ## Part 3 - Mobile Compatibility & Revisions
 ---
+<img src="./part3-1.png" width="30%">
+<img src="./part3-2.png" width="30%">
+<img src="./part3-3.png" width="30%">
 
-The major problem I was facing was how incompatible the early implementation was when I opened it from a mobile phone. The blog page (screen 4) was so cluttered as in the tree navigation panel blocked the actual content of the page.
+The major problem I was facing was how incompatible the early implementation was when I opened it from a mobile phone. The blog page (screen 4) was so cluttered an very unreadable.
 
-Text-wrapping and content overflow were also a major concern when I switched to mobile view, as it made the design messy and unreadable.
+Another major concern that I had to deal with was the content readibility. If I set the content to be readable in PC screen, it would be too small in mobile views as shown in the pictures. And if I set the text to be readable in mobile view, it will be too small/big in PC views. Having the content too large may also lead to content overflowing problems.
 
-Hence, I went with Quasar Framework as the UI wrapper for the website, with Vue.JS still as the Frontend Framework. Many of the problems were solved using Quasar Framework. I implemented the navigation bars at the bottom in just a matter of minutes, and resolved the content overflow easily. I then decided to enable page-scrolling for mobile views, while keeping the content short as to avoid long scrolls for the users. I still kept the on-screen page design for PC and web browsers for easy viewing.
+<img src="./part4-1.png" width="40%">
+<img src="./part4-2.png" width="40%">
+<img src="./part4-3.png" width="40%">
+<img src="./part4-4.png" width="40%">
+<img src="./part4-5.png" width="40%">
+
+<img src="./part5-1.png" width="30%">
+<img src="./part5-2.png" width="30%">
+<img src="./part5-3.png" width="30%">
+<img src="./part5-4.png" width="30%">
+<img src="./part5-5.png" width="30%">
+
+Hence, I went with Quasar Framework as the hybrid Web/Mobile UI wrapper for the website, with Vue.JS still as the Frontend Framework. Many of the problems were solved using Quasar Framework. I implemented the navigation bars at the bottom in just a matter of minutes, and resolved the content overflow easily. I then decided to enable page-scrolling for mobile views, while keeping the content short as to avoid long scrolls for the users. I still kept the on-screen page design for PC and web browsers for easy viewing.
 
 The major change upon using Quasar, is that I had to change the tree view navigation in blog page (screen 4) as it kept blocking the content in mobile views. The tree view navigation was then changed to the buttons similar in About page (screen 2). The buttons were also reduced to three to enable compatibility on mobile views, and for easy/uncluttered content.

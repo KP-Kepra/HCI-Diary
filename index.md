@@ -34,6 +34,7 @@ Other design decisions include the navigation panel on the left side in About pa
 <img src="./part3-1.png" width="30%">
 <img src="./part3-2.png" width="30%">
 <img src="./part3-3.png" width="30%">
+> Messy components in mobile view. Implemented before moving on to Quasar
 
 The major problem I was facing was how incompatible the early implementation was when I opened it from a mobile phone. The blog page (screen 4) was so cluttered an very unreadable.
 
@@ -51,6 +52,7 @@ Another major concern that I had to deal with was the content readibility. If I 
 <img src="./part5-3.png" width="30%">
 <img src="./part5-4.png" width="30%">
 <img src="./part5-5.png" width="30%">
+> Now added with mobile view compatibility
 
 Hence, I went with Quasar Framework as the hybrid Web/Mobile UI wrapper for the website, with Vue.JS still as the Frontend Framework. Many of the problems were solved using Quasar Framework. I implemented the navigation bars at the bottom in just a matter of minutes, and resolved the content overflow easily. I then decided to enable page-scrolling for mobile views, while keeping the content short as to avoid long scrolls for the users. I still kept the on-screen page design for PC and web browsers for easy viewing.
 

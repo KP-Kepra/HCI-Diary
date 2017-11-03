@@ -2,8 +2,8 @@
 
 ## Part 1 - Designing Mockups
 ---
-[<img src="./part1-1.png" width="40%">](https://kp-kepra.github.io/comp4461diary/part1-1.png)
-[<img src="./part1-2.png" width="40%">](https://kp-kepra.github.io/comp4461diary/part1-2.png)
+[<img src="./part1-1.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p1/part1-1.png)
+[<img src="./part1-2.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p1/part1-2.png)
 
 The mockup design was made using the website draw.io. Initially I wanted to do a rough sketch up, using the default size of the mockup. Then I decided to do multiple screens for the mockup itself, showing every possible state screen of my website. I thought that providing multiple screens allow for side-by-side comparisons, and reviewing my website would be easier by looking directly at other screens of the web.
 
@@ -15,11 +15,11 @@ Content-wise, I want to keep the text short but providing important information.
 
 ## Part 2 - Building the Website
 ---
-[<img src="./part2-1.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part2-1.png)
-[<img src="./part2-2.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part2-2.png)
-[<img src="./part2-3.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part2-3.png)
-[<img src="./part2-4.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part2-4.png)
-[<img src="./part2-5.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part2-5.png)
+[<img src="./part2-1.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part2-1.png)
+[<img src="./part2-2.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part2-2.png)
+[<img src="./part2-3.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part2-3.png)
+[<img src="./part2-4.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part2-4.png)
+[<img src="./part2-5.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part2-5.png)
 
 The website was initially built with Vue.JS, a modular/component-based JavaScript framework. I was also trying the framework for the first time, so it's more like building and learning on-the-go. The website is also bundled with HTML markups and CSS decorations.
 
@@ -31,27 +31,27 @@ Other design decisions include the navigation panel on the left side in About pa
 
 ## Part 3 - Mobile Compatibility & Revisions
 ---
-[<img src="./part3-1.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part3-1.png)
-[<img src="./part3-2.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part3-2.png)
-[<img src="./part3-3.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part3-3.png)
+[<img src="./part3-1.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part3-1.png)
+[<img src="./part3-2.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part3-2.png)
+[<img src="./part3-3.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part3-3.png)
 > Messy components in mobile view. Implemented before moving on to Quasar
 
 The major problem I was facing was how incompatible the early implementation was when I opened it from a mobile phone. The blog page (screen 4) was so cluttered an very unreadable.
 
 Another major concern that I had to deal with was the content readibility. If I set the content to be readable in PC screen, it would be too small in mobile views as shown in the pictures. And if I set the text to be readable in mobile view, it will be too small/big in PC views. Having the content too large may also lead to content overflowing problems.
 
-[<img src="./part4-1.png" width="40%">](https://kp-kepra.github.io/comp4461diary/part4-1.png)
-[<img src="./part4-2.png" width="40%">](https://kp-kepra.github.io/comp4461diary/part4-2.png)
-[<img src="./part4-3.png" width="40%">](https://kp-kepra.github.io/comp4461diary/part4-3.png)
-[<img src="./part4-4.png" width="40%">](https://kp-kepra.github.io/comp4461diary/part4-4.png)
-[<img src="./part4-5.png" width="40%">](https://kp-kepra.github.io/comp4461diary/part4-5.png)
+[<img src="./part4-1.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p1/part4-1.png)
+[<img src="./part4-2.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p1/part4-2.png)
+[<img src="./part4-3.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p1/part4-3.png)
+[<img src="./part4-4.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p1/part4-4.png)
+[<img src="./part4-5.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p1/part4-5.png)
 > Final design in Web view, with Quasar Framework
 
-[<img src="./part5-1.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part5-1.png)
-[<img src="./part5-2.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part5-2.png)
-[<img src="./part5-3.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part5-3.png)
-[<img src="./part5-4.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part5-4.png)
-[<img src="./part5-5.png" width="30%">](https://kp-kepra.github.io/comp4461diary/part5-5.png)
+[<img src="./part5-1.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part5-1.png)
+[<img src="./part5-2.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part5-2.png)
+[<img src="./part5-3.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part5-3.png)
+[<img src="./part5-4.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part5-4.png)
+[<img src="./part5-5.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p1/part5-5.png)
 > Now added with mobile view compatibility
 
 Hence, I went with Quasar Framework as the hybrid Web/Mobile UI wrapper for the website, with Vue.JS still as the Frontend Framework. Many of the problems were solved using Quasar Framework. I implemented the navigation bars at the bottom in just a matter of minutes, and resolved the content overflow easily. I then decided to enable page-scrolling for mobile views, while keeping the content short as to avoid long scrolls for the users. I still kept the on-screen page design for PC and web browsers for easy viewing.

@@ -2,6 +2,10 @@
 
 ## Part 1 - Needfinding
 ---
+
+[<img src="./observe1.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p2/observe1.png)
+[<img src="./observe2.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p2/observe2.png)
+
 The first part, or needfinding, is divided into three parts : observation, interviews, and surveys. The observation was done in LG4 Library in HKUST at night time (around 7-8 pm) where students were studying under the lights from each of the tables. The observation was done in this place as it allowed for a better understanding of the lighting conditions the students used while studying, particularly under bright desk lamps. It was also the time where midterms were frequent so the observation during this time also captured decent amount of footage of students studying in LG4 Library.
 
 [<img src="./anton1.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/anton1.png)
@@ -10,7 +14,7 @@ The first part, or needfinding, is divided into three parts : observation, inter
 
 To get a much clearer understanding of what people think about the lighting condition problem, an interview was made with three students of HKUST with varying majors and backgrounds. The questions asked during the interview were mostly about how the students use their daily lighting for daily use (e.g. studying, sleeping, etc) and what do they like and dislike about it. In this interview that I did, most of the respondents answered that they mostly don't like having to walk across the room to just switch off the lights, and they can only have a fixed lighting, meaning that they cannot adjust the brightness nor the intensity of the lights.
 
-I then proceeded to ask the respondents of how they would like to implement their own lighting system. The most common answer is that the respondents would like to set their own color, brightness and saturation, which in turn, can help boost their productivity while studying, sleeping, and other activities according to their mood. For example, one interviewee answered that she would sleep more easily if the lighting gradually changes color to red before sleeping.
+The interview then continued on how they would like to implement their own lighting system. The most common answer is that the respondents would like to set their own color, brightness and saturation, which in turn, can help boost their productivity while studying, sleeping, and other activities according to their mood. For example, one interviewee answered that she would sleep more easily if the lighting gradually changes color to red before sleeping.
 
 A survey was also conducted to gather information about general preferences of room lighting, and how people would use in their daily life. This survey asked some common questions to further support the opinions from the interviews and add some perspective to the observations.
 
@@ -19,11 +23,15 @@ A survey was also conducted to gather information about general preferences of r
 [<img src="./survey3.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey3.png)
 [<img src="./survey4.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey4.png)
 [<img src="./survey5.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey5.png)
-[<img src="./survey6.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey6.png)
+[<img src="./survey6.png" width="30%">](https:/i/kp-kepra.github.io/comp4461diary/p2/survey6.png)
 > Survey results. Click on the images to enlarge.
 
 ## Part 2 - Idea Brainstorming & Validation
 ---
+
+[<img src="./pov.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/pov.png)
+[<img src="./pov2.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/pov2.png)
+
 Initially the idea was to make a simple smartphone app that enables user to connect to the hue bridge and controls the lights using the app. However, due to tight schedule, the idea was later improvised to use a server that runs 24 hours a day, in which the program can run and controls the light system. The implementation of the idea later proved to be lightweight and doesn't require a lot of code implementation, while still enabling the users to use the dashboard in an instant.
 
 After the basic idea was done, the idea was then proposed again to the interviewees to ask what they think of the initial idea. Most of the respondents gave positive feedbacks, noticed how a 24-hour dashboard will definitely help them control the lights at ease. The respondents also replied that the app may be better with additional features such as allowing them to set up a 24-hour schedule to automatically control the lights, setting up their own room lighting to change several lights at once, and many others.
@@ -48,7 +56,7 @@ Finally, a user demonstration and feedback was conducted involving one of the in
 ---
 The video itself was made with Windows Live Movie Maker. Perhaps this part is the most time-consuming one, as it requires a lot of video and audio cuts, music timings, and texts added into the video. But, the overall progress in this part went pretty smooth as the raw videos were all already recorded. 
 
-[<img src="./video.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p2/video.png)
+[<img src="./video.png" width="80%">](https://kp-kepra.github.io/comp4461diary/p2/video.png)
 > The video project file
 
 [Link to the video](https://youtu.be/MewN1Z8aMPU)

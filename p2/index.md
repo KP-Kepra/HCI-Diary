@@ -13,12 +13,14 @@ To get a much clearer understanding of what people think about the lighting cond
 I then proceeded to ask the respondents of how they would like to implement their own lighting system. The most common answer is that the respondents would like to set their own color, brightness and saturation, which in turn, can help boost their productivity while studying, sleeping, and other activities according to their mood. For example, one interviewee answered that she would sleep more easily if the lighting gradually changes color to red before sleeping.
 
 A survey was also conducted to gather information about general preferences of room lighting, and how people would use in their daily life. This survey asked some common questions to further support the opinions from the interviews and add some perspective to the observations.
+
 [<img src="./survey1.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey1.png)
 [<img src="./survey2.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey2.png)
 [<img src="./survey3.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey3.png)
 [<img src="./survey4.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey4.png)
 [<img src="./survey5.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey5.png)
 [<img src="./survey6.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/survey6.png)
+> Survey results. Click on the images to enlarge.
 
 ## Part 2 - Idea Brainstorming & Validation
 ---
@@ -28,9 +30,12 @@ After the basic idea was done, the idea was then proposed again to the interview
 
 ## Part 3 - Prototype Design
 ---
+
 [<img src="./prototype1.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/prototype1.png)
 [<img src="./prototype2.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/prototype1.png)
 [<img src="./prototype3.png" width="30%">](https://kp-kepra.github.io/comp4461diary/p2/prototype1.png)
+> Phillips Hue connected to the server app in Raspberry Pi
+
 The prototype itself was made using the Raspberry Pi and a server program that connects to the Hue Bridge within the same network. The Raspberry Pi acts as the automation server which ideally would run 24 hours a day. This allows for a lower power consumption, while still enabling users to set their custom lighting and automate their light schedules. The server program is then loaded into the SD Card inside the Raspberry Pi and executed to the port 80. This kind of configuration enables the Raspberry Pi's IP Address to be accessed using any device within the same network.
 
 The server program itself is made in Python language using Flask library for server features. The code I made was based on the original boilerplate which can be found in this link (https://github.com/jcalais/huedash). However, the program itself was limited to changing the brightness of the light. Hence, several changes were made and added to the program, resulting in the final prototype where the user can control all the three lights, plus changing the brightness, saturation, and colors of each light. Another feature was added to display available schedules within a certain user on the Hue Bridge, and allows the user to enable/disable the schedule. If the schedule is enabled, it will trigger the lighting scene change at a certain time.
@@ -42,7 +47,9 @@ Finally, a user demonstration and feedback was conducted involving one of the in
 ## Part 4 - Making the video
 ---
 The video itself was made with Windows Live Movie Maker. Perhaps this part is the most time-consuming one, as it requires a lot of video and audio cuts, music timings, and texts added into the video. But, the overall progress in this part went pretty smooth as the raw videos were all already recorded. 
+
 [<img src="./video.png" width="40%">](https://kp-kepra.github.io/comp4461diary/p2/video.png)
+> The video project file
 
 [Link to the video](https://youtu.be/MewN1Z8aMPU)
 

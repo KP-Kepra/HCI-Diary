@@ -44,6 +44,7 @@ Another major concern that I had to deal with was the content readibility. If I 
 <img src="./part4-3.png" width="40%">
 <img src="./part4-4.png" width="40%">
 <img src="./part4-5.png" width="40%">
+> Final design in Web view, with Quasar Framework
 
 <img src="./part5-1.png" width="30%">
 <img src="./part5-2.png" width="30%">
